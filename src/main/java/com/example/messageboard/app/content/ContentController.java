@@ -47,7 +47,7 @@ public class ContentController {
 		return list;
 	}
 
-	// メッセージをインサートする
+	// メッセージをインサート
 	@PostMapping("/insert")
 	public void insert(@Validated @RequestBody InsertForm insertForm, BindingResult result, Model model) {
 
