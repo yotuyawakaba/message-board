@@ -23,9 +23,7 @@ export const Content = () => {
 				<li>{getObj.updated}</li>
 			</ul>
 		</div>
-            // <Grid item xs={12} sm={4} key={getObj.id}>
-            //     <BodyCard {...getObj} />
-            // </Grid>
+            
         );
     };
     return (
