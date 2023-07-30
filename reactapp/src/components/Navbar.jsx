@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
         <Link to="/createpost">
-            投稿する
+            Post
         </Link>
     </nav>
   )
